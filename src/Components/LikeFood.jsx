@@ -1,10 +1,10 @@
 function LikeFood() {
     return ( 
         <div className="flex items-center">
-        <div className="flex rounded-2xl overflow-hidden">
+        <div className="flex rounded-2xl overflow-hidden items-center">
           <img
             src="https://picsum.photos/200"
-            className="shrink-0 h-40 w-40 rounded-full"
+            className="shrink-0 h-40 w-40 rounded-full p-3"
             alt="Photostore"
           />
           <div className="p-8 bg-white">

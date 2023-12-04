@@ -1,7 +1,9 @@
+import LoginForm from "../Components/LoginForm";
+
 function Btn4() {
     return (
-        <div>
-            맛집 랭킹 버튼
+        <div className="container mx-auto p-4 xl:ml-80">
+            <LoginForm />
         </div>
       );
 }
