@@ -6,6 +6,10 @@
 
 ```bash
 
+# 라우터 설치
 npm install react-router-dom 
+
+# 테일윈드 설치
+npm install -D tailwindcss postcss autoprefixer
 
 ```
