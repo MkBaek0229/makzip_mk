@@ -18,4 +18,9 @@ npm install -D tailwindcss postcss autoprefixer
 
 npm install -D prettier prettier-plugin-tailwindcss
 
+
+# 로그인 기능 구현
+npm i react-hook-form
+
+
 ```

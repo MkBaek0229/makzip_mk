@@ -1,4 +1,4 @@
-function LikeFood() {
+function Profile() {
     return ( 
         <div className="flex items-center">
         <div className="flex rounded-2xl overflow-hidden items-center">
@@ -10,11 +10,11 @@ function LikeFood() {
           <div className="p-8 bg-white">
             <header className="mb-2">
               <h3 className="text-xl  font-bold text-slate-900 group-hover:text-slate-900">
-                [맛케터] 내가 사랑하던 돈까스들..
+                여기에 제목을 작성합니다.
               </h3>
             </header>
             <p className="text-base font-medium text-slate-500 group-hover:text-slate-700">
-                12월이되고 돈까스를 그녀와함께하던 크리스마스가 기억이나네요...
+                여기에 텍스트를 작성합니다.
             </p>
           </div>
         </div>
@@ -23,4 +23,4 @@ function LikeFood() {
     );
 }
 
-export default LikeFood
+export default Profile
