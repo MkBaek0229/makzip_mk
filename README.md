@@ -16,6 +16,10 @@ npm install react-router-dom
 # 테일윈드 설치
 npm install -D tailwindcss postcss autoprefixer
 
+# 테일윈드 설정 파일 생성
+npx tailwindcss init -p
+
+# prettier 플러그인 설치
 npm install -D prettier prettier-plugin-tailwindcss
 
 
