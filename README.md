@@ -6,6 +6,7 @@
 - [x] 테일윈드 활용한 간단한 컴포넌트만들어보기
 - [x] 테일윈드로 레이아웃 구조 잡기 1차
 - [x] Header 레이아웃 컴포넌트생성.
+- [x] 리코일 도입 및 간단하게 todo 데이터생성 끌고오기
 
 ## 사용한 라이브러리
 
@@ -27,5 +28,6 @@ npm install -D prettier prettier-plugin-tailwindcss
 # 로그인 기능 구현
 npm i react-hook-form
 
-
+# 리코일 설치
+npm install recoil
 ```

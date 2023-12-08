@@ -1,3 +1,5 @@
+import ImgLogo from '../assets/GymLogo.png'
+
 function Header() {
     return (  
     <div className="container mx-auto p-4 xl:ml-80">
