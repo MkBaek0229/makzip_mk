@@ -7,9 +7,9 @@ import Btn4 from "../Page/Btn4";
 
 function Side() {
   return (
-    <>
+    <div class="min-h-screen bg-gray-200 flex">
     {/* 실제로 렌더링하는곳. */}
-    <aside className="bg-white shadow-sm -translate-x-80 fixed inset-0 z-50 my-4 ml-4 h-[calc(100vh-32px)] w-72 rounded-xl transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100">
+    <aside class="bg-white shadow-sm h-[calc(100vh-32px)] w-[20%] rounded-xl border border-blue-gray-100">
       <div className="relative">
       <NavLink to="/" className="py-6 px-8 text-center"><h3 className="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900">홈 화면</h3></NavLink>
       </div>
@@ -42,7 +42,7 @@ function Side() {
         </ul>
       </div>
     </aside>
-
+    
   {/* 여기는 라우터처리해주는곳*/}
     <Routes>
       <Route path="/" element={<Home />} /> 
@@ -51,7 +51,7 @@ function Side() {
       <Route path="/btn3" element={<Btn3 />} />
       <Route path="/btn4" element={<Btn4 />} />
     </Routes>
-    </>
+    </div>
   );
 }
 

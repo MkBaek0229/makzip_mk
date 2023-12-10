@@ -13,30 +13,28 @@ function Home() {
   }
 
   return (
-      <>
+    <>
       {visible ?
-        <div className="container mx-auto p-4 xl:ml-80">
+        <div class="container mx-auto p-4 flex-1">
           <section className="p-5">
             <header className="mb-4">
               <h2 className="font-bold text-3xl">고객님 서비스에 찾아와주셔서 감사합니다.</h2>
             </header>
             </section>
             <Profile /> 
-        </div> : 
-        <div className="container mx-auto p-4 xl:ml-80">
+            </div>
+        : 
+        <div class="container mx-auto p-4 flex-1">
            <section className="p-5">
             <header className="mb-4">
-              <h2 className="font-bold text-3xl">개인 정보를 확인 하고싶으면 로그인 하세요.</h2>
+              <h2 className="font-bold text-5xl">개인 정보를 확인 하고싶으면 로그인 하세요.</h2>
               <button onClick={() => yes()}><p className="font-bold text-2xl rounded-full">로그인 하기</p></button>
               <p className="font-bold text-2xl rounded-full"><button onClick={() => no()}>안할래요</button></p>
-
             </header>
             </section>
-          
-        </div>
-        
+            </div>
         }
-        </> 
+        </>
     );
 }
 
