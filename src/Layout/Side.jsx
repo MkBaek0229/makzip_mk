@@ -11,8 +11,6 @@ function Side() {
     <div class="min-h-screen bg-gray-200 flex">
     {/* 실제로 렌더링하는곳. */}
     <Menu />
-
-    
   {/* 여기는 라우터처리해주는곳*/}
     <Routes>
       <Route path="/" element={<Home />} /> 
