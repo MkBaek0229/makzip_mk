@@ -1,8 +1,11 @@
 import Headers from "../Components/Headers";
 
 function Main() {
-    return (  
+    return (
+        <div class="container">
         <Headers />
+    
+        </div>
     );
 }
 

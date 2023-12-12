@@ -7,7 +7,8 @@
 - [x] 테일윈드로 레이아웃 구조 잡기 1차
 - [x] Header 레이아웃 컴포넌트생성.
 - [x] 리코일 도입 및 간단하게 todo 데이터생성 끌고오기
-- [x] 레이아웃 재조정 , Menu 컴포넌트 생성 sidebar에서 import
+- [x] 레이아웃 조정, 폰트 설정 네비바 작업
+- 
 
 ## 사용한 라이브러리
 
@@ -21,6 +22,8 @@ npm install -D tailwindcss postcss autoprefixer
 
 # 테일윈드 설정 파일 생성
 npx tailwindcss init -p
+# classanames 설치
+npm install classnames
 
 # prettier 플러그인 설치
 npm install -D prettier prettier-plugin-tailwindcss
@@ -31,4 +34,6 @@ npm i react-hook-form
 
 # 리코일 설치
 npm install recoil
+
+
 ```
