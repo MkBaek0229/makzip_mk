@@ -12,7 +12,7 @@ function Btn1() {
    const [todos, setTodos] = useRecoilState(todosAtom)
     
     return (
-        <div class="container mx-auto">
+    <div class="container">
     <section className="p-5">
      <header className="mb-4">
        <h2 className="font-bold text-3xl">헤더</h2>
