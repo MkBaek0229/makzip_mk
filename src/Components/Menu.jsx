@@ -9,8 +9,9 @@ function Menu() {
           `py-6 px-8 text-center`,  
           {"text-red-500": isActive}   
         )
-}
-><h3 className="mr-auto p-3 font-bold hover:text-red-500 cur">logo</h3></NavLink>
+          }><h3 className="mr-auto p-3 font-bold hover:text-red-500 cur">
+            logo</h3>
+        </NavLink>
         <NavLink to="/" className="py-6 px-8 text-center"><h3 className="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900">홈 화면</h3></NavLink>
         </div>
         <div className="m-4">

@@ -21,6 +21,7 @@ function Headers() {
     <form>
         <input type="text" placeholder="할 일을 입력해주세요."/>
         <input type="submit" value="작성"/>
+        <button class="btn btn-primary">Primary</button>
     </form>
      </header>
      </section>
